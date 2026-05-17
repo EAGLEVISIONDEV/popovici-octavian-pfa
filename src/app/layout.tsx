@@ -6,48 +6,22 @@ export const metadata: Metadata = {
   description:
     'Dezvoltare software profesională - Aplicații web moderne, API-uri scalabile și soluții cloud. Full-Stack Developer cu experiență în React, Next.js, Node.js și TypeScript.',
   keywords: [
-    'software developer',
-    'web development',
-    'React',
-    'Next.js',
-    'TypeScript',
-    'Node.js',
-    'full-stack developer',
-    'PFA',
-    'Popovici Octavian',
-    'freelancer',
-    'România',
-    'București',
-    'dezvoltare software',
-    'aplicații web',
+    'software developer', 'web development', 'React', 'Next.js', 'TypeScript',
+    'Node.js', 'full-stack developer', 'PFA', 'Popovici Octavian',
+    'freelancer', 'România', 'București', 'dezvoltare software',
   ],
   authors: [{ name: 'Octavian Popovici' }],
-  creator: 'Octavian Popovici',
   openGraph: {
     type: 'website',
     locale: 'ro_RO',
     title: 'Popovici Octavian PFA | Software Developer',
-    description:
-      'Dezvoltare software profesională - Aplicații web moderne, API-uri scalabile și soluții cloud.',
+    description: 'Dezvoltare software profesională - Aplicații web moderne, API-uri scalabile și soluții cloud.',
     siteName: 'Popovici Octavian PFA',
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Popovici Octavian PFA | Software Developer',
-    description:
-      'Dezvoltare software profesională - Aplicații web moderne, API-uri scalabile și soluții cloud.',
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: { index: true, follow: true },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ro" className="scroll-smooth">
       <head>
